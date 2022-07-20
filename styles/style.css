@@ -1,5 +1,5 @@
 /* font importing link */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* basic tags and utilities */
 body {
@@ -48,4 +48,87 @@ body {
 .right-side img {
     width: 100%;
     margin-top: 50px;
+}
+
+
+/* style of Section 2 */
+/* left side */
+.section-2 {
+    margin-top: 130px;
+    display: flex;
+}
+
+.left-side-s2 {
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.left-side-s2 button {
+    background-color: #FFFFFF;
+    width: 80%;
+    padding: 15px 25px;
+    border: none;
+    margin: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* right side */
+.right-side-s2-items {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-left: 24px;
+}
+
+.right-side-s2-item {
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+    /* margin-left: 24px; */
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side-s2-item img {
+    width: 100%;
+}
+
+.bottom-part {
+    margin: 20px;
+
+}
+
+#s2-button {
+    width: 100px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    padding: 8px 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.bottom-part p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bottom-part .clockNComment {
+    color: #161616B2;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.bottom-part #clock {
+    margin-right: 30px;
+}
+
+.fa-clock,
+.fa-rocketchat {
+    margin-right: 10px;
 }
