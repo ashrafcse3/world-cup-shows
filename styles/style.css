@@ -2,8 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* basic tags and utilities */
-body {
+body,
+html {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+main {
     margin: 20px 60px;
 }
 
@@ -64,6 +69,11 @@ body {
     flex-direction: column;
     width: 20%;
     border-radius: 10px;
+}
+
+.left-side-s2 a:hover,
+button:hover {
+    cursor: pointer;
 }
 
 .left-side-s2 button {
@@ -131,4 +141,43 @@ body {
 .fa-clock,
 .fa-rocketchat {
     margin-right: 10px;
+}
+
+
+/* footer section */
+footer {
+    margin-top: 110px;
+    background-color: #161616;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding-top: 130px;
+}
+
+footer hr {
+    margin-top: 50px;
+    width: 80%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+footer nav {
+    padding-top: 50px;
+    padding-bottom: 130px;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    color: #B9B9B9;
+    font-size: 16px;
+    font-weight: 500;
+    list-style-type: none;
+}
+
+.list-item {
+    margin-right: 40px;
 }
