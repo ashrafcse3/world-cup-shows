@@ -241,7 +241,7 @@ footer nav ul {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 24px;
-        margin-left: 24px;
+        /* margin-left: 24px; */
     }
 
     /* view all button */
@@ -266,5 +266,86 @@ footer nav ul {
         white-space: nowrap;
         flex-wrap: wrap;
         gap: 20px;
+    }
+}
+
+/* responsive code for mobiles */
+@media screen and (max-width: 576px) {
+
+    /* section 1 styles */
+    .section-1 {
+        /* background-color: yellow; */
+        color: #FFFFFF;
+        display: flex;
+        border-radius: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .half-width {
+        width: 90%;
+    }
+
+    .left-side {
+        padding: 30px;
+    }
+
+    .left-side h1 {
+        font-size: 2em;
+        font-weight: 700;
+        line-height: 1em;
+    }
+
+    #button-for-live {
+        font-size: 16px;
+        font-weight: 400;
+        padding: 10px 15px;
+        margin-top: 5px;
+    }
+
+    /* right side for section 1 */
+    .right-side img {
+        width: 80%;
+        margin-top: 0;
+    }
+
+    /* section 2 */
+    .section-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* left side  */
+    .left-side-s2 {
+        display: flex;
+        background-color: white;
+        flex-direction: column;
+        border-radius: 10px;
+        white-space: nowrap;
+    }
+
+    .left-side-s2 button {
+        background-color: #FFFFFF;
+        padding: 15px 35px;
+        border: 1px solid;
+        margin: 15px;
+        border-radius: 10px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    /* right side  */
+    .right-side-s2-items {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 24px;
+    }
+
+    /* footer */
+    footer nav ul {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
     }
 }
